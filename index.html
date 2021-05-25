@@ -13,42 +13,79 @@
     <p id="description">Thank you for telling us about your favorite code language</p>
     <form action="#" id="survey-form">
         <div>
-            <label for=""></label>
-            <input type="text">
-        </div>
+            <p>Name</p>
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div><br>
         <div>
-            <label for=""></label>
-            <input type="text">
-        </div>
+            <p>Email</p>
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Enter your Email" required>
+        </div><br>
         <div>
-            <label for=""></label>
-            <input type="text">
-        </div>
+            <p>Age (optional)</p>
+            <label for="age"></label>
+            <input type="date" id="age" name="age">
+        </div><br>
         <div>
-            <p>sentence one drop down</p>
-            <label for=""></label>
-            <input type="text">
-        </div>
+            <p>Which method did you learn college, a bootcamp, or self taught?</p>
+            <label for="method"></label>
+            <select name="method" id="method">
+                <option value="College">College</option>
+                <option value="Bootcamp">Bootcamp</option>
+                <option value="Self Taught">Self Taught</option>
+            </select>
+        </div><br>
         <div>
-            <p>sentence two radio</p>
-            <label for=""></label>
-            <input type="text">
-        </div>
+            <p>which method would you recomend to new learners?</p>
+            <input type="radio" id="school" name="learn" value="College">
+            <label for="college">College</label>
+            <input type="radio" id="camp" name="learn" value="Bootcamp">
+            <label for="Bootcamp">Bootcamp</label>
+            <input type="radio" id="home" name="learn" value="Self Taught">
+            <label for="Self Taught">Self Taught</label>
+        </div><br>
         <div>
-            <p>sentence three checkboxes</p>
-            <label for=""></label>
-            <input type="text">
-        </div>
+            <p>In which area of the stack do you work in currently</p>
+            <label for="stack-area"></label>
+            <select name="stack-area" id="stack-area">
+                <option value="College">Front End</option>
+                <option value="Bootcamp">Back End</option>
+                <option value="Self Taught">UX Design</option>
+                <option value="Self Taught">Full Stack</option>
+            </select>            
+        </div><br>
         <div>
-            <p>fave feature dropdown</p>
-            <label for=""></label>
-            <input type="text">
-        </div>
+            <p>Which languages are you proficent in?</p>
+            <input type="checkbox" id="lang-1" name="lang-1" value="JavaScript" >
+            <label for="lang-1">JavaScript</label><br>
+            <input type="checkbox" id="lang-2" name="lang-2" value="Python">
+            <label for="lang-2">Python</label><br>
+            <input type="checkbox" name="lang-3" id="lang-3" value="HTML">
+            <label for="lang-3">HTML</label><br>
+            <input type="checkbox" name="lang-4" id="lang-4" value="CSS">
+            <label for="lang-4">CSS</label><br>
+            <input type="checkbox" name="lang-5" id="lang-5" value="Java">
+            <label for="lang-5">Java</label><br>
+            <input type="checkbox" name="lang-6" id="lang-6" value="SQL">
+            <label for="lang-6">SQL</label><br>
+            <input type="checkbox" name="lang-7" id="lang-7" value="NoSQL">
+            <label for="lang-7">NoSQL</label><br>
+            <input type="checkbox" name="lang-8" id="lang-8" value="C#">
+            <label for="lang-8">C#</label><br>
+            <input type="checkbox" name="lang-9" id="lang-9" value="Rust">
+            <label for="lang-9">Rust</label><br>
+            <input type="checkbox" name="lang-10" id="lang-10" value="Perl">
+            <label for="lang-10">Perl</label><br>
+            <input type="checkbox" name="lang-10" id="lang-10" value="Perl">
+            <label for="lang-10">Perl</label><br>
+            <input type="checkbox" name="lang-11" id="lang-11" value="Go">
+            <label for="lang-11">Go</label><br>
+        </div><br>
         <div>
-            <p>comments field</p>
-            <label for=""></label>
-            <input type="text">
-        </div>
+            <p>Any additional input or recomendations?</p>
+            <textarea rows = "5" cols = "60" name = "description"></textarea><br>
+        </div><br>
         <div>
             <button>submit</button>            
         </div>      
