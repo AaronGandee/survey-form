@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background-color: cadetblue;  
 }
 ol, ul {
 	list-style: none;
@@ -46,14 +47,26 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+#main-container {
+    margin:40px 400px 0px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #title {
-    font-size: 32pt;
+    font-size: 32px;
+    align-self: center;
+    padding: 10px;
 }
 #description {
-
+    font-size: 22px;
+    font-style: italic;
+    align-self: center;
+    padding: 5px;
 }
 #survey-form {
-
+ border: double 2px black;
+ 
 }
 #name {
 
