@@ -14,18 +14,18 @@
     <form action="#" id="survey-form">
         <div>
             <p>Name</p>
-            <label for="name"></label>
+            <label id="name-label" for="name">>>></label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
         </div><br>
         <div>
             <p>Email</p>
-            <label for="email"></label>
-            <input type="text" id="email" name="email" placeholder="Enter your Email" required>
+            <label id="email-label" for="email">>>></label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
         </div><br>
         <div>
-            <p>Age (optional)</p>
-            <label for="age"></label>
-            <input type="date" id="age" name="age">
+            <p>Years Experienced in Code</p>
+            <label id="number-label" for="years">>>></label>
+            <input type="number" min="0" max="30" id="number" name="years" placeholder="Years">
         </div><br>
         <div>
             <p>Which method did you learn college, a bootcamp, or self taught?</p>
